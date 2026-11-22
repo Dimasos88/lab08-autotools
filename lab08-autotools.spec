@@ -10,7 +10,7 @@ BuildRequires: gcc
 BuildRequires: make
 BuildRequires: autoconf
 BuildRequires: automake
-BuildRequires: libncurses-devel
+BuildRequires: libncursesw-devel
 
 %description
 A terminal key scanner with a configurable frame margin and keypad decoding.

@@ -7,7 +7,11 @@
 #define WINDOW_MARGIN 2
 #endif
 #endif
+#ifdef HAVE_NCURSESW_NCURSES_H
+#include <ncursesw/ncurses.h>
+#else
 #include <ncurses.h>
+#endif
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
